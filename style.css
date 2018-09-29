@@ -1,0 +1,78 @@
+html, body{
+  height:100%;
+}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin:0;
+  font-family: sans-serif;
+
+}
+.overlay{
+  width:100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  flex-direction: column;
+}
+
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size:25px;
+  display: flex;
+  padding:20px;
+  color:rgba(255,255,255,0.5);
+
+}
+.top .left{
+  flex: 1 0 auto;
+  text-align: left;
+}
+.top .right{
+  flex: 1 1 auto;
+  text-align: right;
+}
+.time{
+  font-size:200px;
+  margin:0;
+  font-weight: 400;
+}
+.greeting{
+  font-size:80px;
+  font-weight: 400;
+  margin:0;
+}
+input.user-name, input.interest{
+  width:20em;
+  text-align: center;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  outline: 0;
+  font-size:30px;
+  color: #fff;
+  margin-top: 20px;
+  display:none;
+}
+a.photoby{
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+}
+.change-btn{
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+  cursor:pointer;
+  display: none;
+}
+.change-btn:hover{
+  transition: all 0.5s ease-out;
+  text-decoration: underline;
+}
