@@ -4,7 +4,7 @@ Build your own Chrome Extension like [Momentum](https://momentumdash.com)
 
 ## Getting Started
 
-You can clone and test it, but check this [blog](https://medium.com/@thejungwon/best-html-css-javascript-practice-chrome-extension-ae4e5e7839e?source=friends_link&sk=27380b4f56a7af59e1a16eb4c1b7153b) first.
+You can clone and test it, but read this [blog](https://medium.com/@thejungwon/best-html-css-javascript-practice-chrome-extension-ae4e5e7839e?source=friends_link&sk=27380b4f56a7af59e1a16eb4c1b7153b) first.
 
 ![sample](./sample.png)
 
